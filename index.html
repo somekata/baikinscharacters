@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="top.css" />
+    <title>バイキンズキャラクター紹介</title>
+  </head>
+  <body>
+    <header>
+      <h1>バイキンズキャラクター紹介</h1>
+      <button id="view-toggle">切り替え: Vertical View</button>
+    </header>
+
+    <main>
+      <!-- Table View -->
+      <section id="tableview" style="display: block"></section>
+
+      <!-- Vertical View -->
+      <section id="verticalview" style="display: none"></section>
+    </main>
+    <div id="scrollToTop" style="display: none">
+      <img src="#" alt="Top" id="topImage" />
+    </div>
+    <footer>
+      <section id="credits">
+        <p>このアプリは ChatGPT を使って作成されました。</p>
+      </section>
+      <section id="version-info">
+        <p>バージョン情報: v1.0.0 (2025-01-16)</p>
+      </section>
+      <section id="copyright">
+        <p>&copy; 2025 バイキンズキャラクター紹介アプリ</p>
+      </section>
+    </footer>
+
+    <script src="top.js"></script>
+    <script src="charapool.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
