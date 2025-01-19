@@ -10,7 +10,15 @@
   <body>
     <header>
       <h1>バイキンズキャラクター紹介</h1>
-      <button id="view-toggle">切り替え: Vertical View</button>
+      <select id="view-select">
+        <option value="tableview">Table View</option>
+        <option value="verticalview">Vertical View</option>
+        <option value="panelview">Panel View</option>
+        <option value="howtouse">How to Use</option>
+        <option value="aboutBaikins">バイキンズとは</option>
+        <option value="taxonomy">細菌の分類</option>
+        <option value="relatedpage">関連ページ</option>
+      </select>
     </header>
 
     <main>
@@ -22,11 +30,195 @@
 
       <!-- Panel View -->
       <section id="panelview" style="display: none"></section>
+
+      <!-- Baikins -->
+      <section id="aboutBaikins" class="normal" style="display: none">
+        <h2>バイキンズとは</h2>
+        <p>
+          私が作り上げた「バイキンズ®」は、感染症や薬剤耐性菌（AMR）について楽しく学べるようにと考案したキャラクターです。自分が学生時代に細菌学が苦手だった経験から、もっと親しみやすく、楽しみながら学べる方法を模索し、キャラクターを通じて伝えることにしました。
+        </p>
+        <p>
+          私は「染方史郎」というクリエーターネームを使っており、この名前のもとでバイキンズ®のキャラクターを開発しています。キャラクターには微生物の特徴をユニークに擬人化したもので、現在40種類以上のキャラクターがいます。それぞれに個性的なストーリーや設定があり、「ハイエンキューキン王（肺炎球菌）」や「インフルエンザキンXV世女王」といったキャラクターは、菌の特性をもとに名前や背景を考えました。これにより、微生物学を学ぶ人たちがその特徴を直感的に理解できるよう工夫しています。
+        </p>
+        <p>
+          また、「バイキンズ®カード」というトレーディングカード風の教材も開発しました。カードには菌の性質、感染部位、耐性レベルが記載されており、背景やマークの色で特徴を表現しています。このカードは学生や医療従事者だけでなく、一般の方にも人気で、ゲーム感覚で楽しみながら学べるようになっています。
+        </p>
+        <p>
+          バイキンズ®を活用した活動は、講座やセミナーだけでなく、子ども向けの体験学習や科学イベントにも広がっています。例えば、小中学生向けのセミナーでは、早押しクイズやゲーム形式で楽しみながら学ぶことができ、非常に好評です。ある小学生がバイキンズ®キャラクターをすべて覚えてしまったと聞いたときは、とても嬉しかったです。
+        </p>
+        <p>
+          また、今回のアプリは、バイキンズ®の世界観をより多くの人に知ってもらうために作成しました。このアプリを通じて、感染症や薬剤耐性菌について楽しく学んでいただければ幸いです。
+        </p>
+        <p>
+          私にとって、バイキンズ®は単なるキャラクターではなく、微生物学をより多くの人に届けるための大切なツールです。「楽しく学ぶ」をモットーに、これからも新しいアイデアを形にしていきたいと思っています。
+        </p>
+      </section>
+
+      <!-- How to Use View -->
+      <section id="howtouse" class="normal" style="display: none">
+        <h2>使い方</h2>
+        <p>このアプリケーションの利用方法について説明します。</p>
+        <ul>
+          <li>「Table View」: テーブル形式で表示します。</li>
+          <li>
+            「Vertical View」:
+            縦型レイアウトで表示します。もっと詳しくボタンで詳細を表示することができます。
+          </li>
+          <li>
+            「Panel View」:
+            バイキンズキャラを簡潔に一覧表示します。パネルをクリックするとバイキンズカードが表示されます。
+          </li>
+          <li>「How to Use」: このセクションで使い方を確認できます。</li>
+          <li>
+            簡単な検索にはTable Viewが、詳細情報の確認にはVertical
+            Viewが適しています。
+          </li>
+        </ul>
+      </section>
+      <!-- Taxonomy View -->
+      <section id="taxonomy" class="normal" style="display: none">
+        <h2>細菌の分類について</h2>
+        <p>
+          臨床的にはグラム染色が非常に有用です。グラム陽性、グラム陰性、球菌、桿菌といった分類を組み合わせることで、例えば「グラム陽性球菌」や「グラム陰性桿菌」のように分けることができます。
+        </p>
+        <p>
+          その他の特徴として、異化過程による分類があります。通常は、好気性、嫌気性、通性嫌気性という分け方をしますが、ブドウ糖発酵、ブドウ糖非発酵という分類もします。ブドウ糖非発酵は、ほぼ好気性と同義です。また、芽胞形成の有無、運動性、莢膜の有無、溶血性、カタラーゼ、オキシダーゼ、ウレアーゼ、その他の毒素によっても分類されます。
+        </p>
+        <p>
+          菌の名称として、通称名と学名があります。学名は、タキソノミーによって命名されており、<a
+            href="https://lpsn.dsmz.de/"
+            target="_blank"
+            >List of Prokaryotic names with Standing in Nomenclature（LPSN）</a
+          >で調べることができます。
+        </p>
+        <p>
+          細菌のタキソノミーでは、最上位はドメイン（Domain）で、<em>Bacteria</em>です。その下に、界（Kingdom）、門（Phylum）などが続きます。
+        </p>
+        <p>
+          現在、界としては、<em>Bacillati</em>、<em>Fusobacteriati</em>、<em>Pseudomonadati</em>、<em>Thermotogati</em>の4つに分類されています。ただし、<em>Thermotogati</em>にはほぼ病原性細菌は含まれていません。<em>Bacillati</em>にはほとんどのグラム陽性菌が、<em>Pseudomonadati</em>にはほとんどのグラム陰性菌が、<em>Fusobacteriati</em>にはほとんどの嫌気性菌が含まれています。
+        </p>
+        <h2>KingdomとPhylumの分類表</h2>
+        <p>
+          Table ViewとVertical
+          Viewには、Kingdomを掲載していませんが、それぞれの位置関係をざっくりと理解するために、3つのKingdomに含まれる主要なPhylumを表にしました。
+        </p>
+        <table>
+          <thead>
+            <tr>
+              <th>Kingdom（界）</th>
+              <th>Phylum（門）</th>
+              <th>説明</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td rowspan="3"><em>Bacillati</em></td>
+              <td><em>Actinomycetota</em></td>
+              <td>
+                主に放線菌を含み、土壌中や水中に生息する抗生物質産生菌が多い。
+              </td>
+            </tr>
+            <tr>
+              <td><em>Bacillota</em></td>
+              <td>
+                代表的なグラム陽性桿菌で、病原性菌（例: 炭疽菌）が含まれる。
+              </td>
+            </tr>
+            <tr>
+              <td><em>Mycoplasmatota</em></td>
+              <td>細胞壁を持たない異色の細菌で、肺炎マイコプラズマが有名。</td>
+            </tr>
+            <tr>
+              <td rowspan="5"><em>Pseudomonadati</em></td>
+              <td><em>Bacteroidota</em></td>
+              <td>腸内細菌叢の重要な構成要素で、嫌気性菌が多い。</td>
+            </tr>
+            <tr>
+              <td><em>Campylobacterota</em></td>
+              <td>
+                代表的な病原菌としてカンピロバクター属があり、食中毒の原因。
+              </td>
+            </tr>
+            <tr>
+              <td><em>Chlamydiota</em></td>
+              <td>クラミジア属を含む病原菌で、性感染症や肺炎の原因となる。</td>
+            </tr>
+            <tr>
+              <td><em>Pseudomonadota</em></td>
+              <td>緑膿菌を含むグラム陰性桿菌で、水系環境に広く分布する。</td>
+            </tr>
+            <tr>
+              <td><em>Spirochaetota</em></td>
+              <td>スピロヘータを含み、ライム病や梅毒の原因菌が含まれる。</td>
+            </tr>
+            <tr>
+              <td><em>Fusobacteriati</em></td>
+              <td><em>Fusobacteriota</em></td>
+              <td>口腔内や腸内に多く存在し、嫌気性菌として知られる。</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+      <!-- Related Page -->
+      <section id="relatedpage" class="normal" style="display: none">
+        <h2>関連するページのリンク</h2>
+        <ul>
+          <li>
+            <a href="https://www.omu.ac.jp/med/bacteriology/" target="_blank"
+              >大阪公立大学 医学部 細菌学講座</a
+            >
+          </li>
+          <li>
+            <a href="http://filgap.kenkyuukai.jp/" target="_blank">Fil-GAP</a>
+          </li>
+          <li>
+            <a href="https://somekata.github.io/somekata/" target="_blank"
+              >染方史郎の細菌楽教室</a
+            >
+          </li>
+          <li>
+            <a href="https://somekata.github.io/quiz/index.html" target="_blank"
+              >感染症クイズ</a
+            >
+          </li>
+          <li>
+            <a href="https://somekata.github.io/filgapquiz/" target="_blank"
+              >Fil-GAPで出題した問題一覧</a
+            >
+          </li>
+        </ul>
+      </section>
     </main>
 
     <div id="scrollToTop" style="display: none">
       <img src="#" alt="Top" id="topImage" />
     </div>
+    <div id="versionInfo" class="info-container">
+      <div class="info-text">
+        <p>
+          このアプリは、<strong>ChatGPT4.0</strong>の支援を受けて作成しました。
+        </p>
+        <p>
+          Version: <span class="version-number">1.00</span> | 更新日:
+          2024-01-16<br />
+          Version: <span class="version-number">1.01</span> | 更新日: 2024-01-19
+        </p>
+      </div>
+      <div class="back-button-container">
+        <button class="styled-button" onclick="history.back()">戻る</button>
+      </div>
+    </div>
+
+    <footer class="footer-container">
+      <p>&copy; 2024 クイズアプリ</p>
+      <p>Developed with by Shiro Somekata ❤️</p>
+      <!--<ul class="footer-links">
+        <li><a href="#">プライバシーポリシー</a></li>
+        <li><a href="#">お問い合わせ</a></li>
+        <li><a href="#">利用規約</a></li>
+      </ul>-->
+    </footer>
+
     <script src="top.js"></script>
     <script src="charapool.js"></script>
     <script src="script.js"></script>
