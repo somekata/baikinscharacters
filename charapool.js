@@ -16,6 +16,7 @@ const chara = [
       card:"https://www.omu.ac.jp/med/bacteriology/online/image/card/img-card-01.png",
       feature:"Royal Family", law:["侵襲性肺炎球菌感染症（5類全数・7日以内）", "ペニシリン耐性肺炎球菌感染症（5類基幹定点・月単位）"],
       bsl:2,
+      story:["言わずと知れた肺炎界のドン。","王様キャラで、温室育ち。血液を半分溶かして栄養を吸い取る。"],
     },
     {
       id: 2,
@@ -31,6 +32,7 @@ const chara = [
       img: "<img src='img/chara2.png'>",
       lpsn:"<a href='https://lpsn.dsmz.de/species/haemophilus-influenzae', target='_blank'><em>Haemophilus influenzae</em></a>",quiztag:["グラム陰性菌","グラム陰性桿菌","GNR","グラム陰性小桿菌","グラム陰性短桿菌","市中肺炎","髄膜炎","ワクチン","BLNAR"], card:"https://www.omu.ac.jp/med/bacteriology/online/image/card/img-card-02.png", feature:"Royal Family", law:["侵襲性インフルエンザ菌感染症（5類全数・7日以内）"],
       bsl:2,
+      story:["準備中","準備中"],
     },
     {
       id: 3,
@@ -51,6 +53,7 @@ const chara = [
       img: "<img src='img/chara3.png'>",
       lpsn: "<a href='https://lpsn.dsmz.de/species/mycoplasma-pneumoniae' target='_blank'><em>Mycoplasma pneumoniae</em></a>",quiztag:["非定型菌","特殊培地","市中肺炎","小葉中心性","マクロライド"], card:"https://www.omu.ac.jp/med/bacteriology/online/image/card/img-card-03.png", feature:"Royal Family", law:["マイコプラズマ肺炎（5類基幹定点・週単位）"],
       bsl:2,
+      story:["準備中","準備中"],
     },
     {
       id: 4,
@@ -71,6 +74,7 @@ const chara = [
       img: "<img src='img/chara4.png'>",
       lpsn: "<a href='https://lpsn.dsmz.de/species/legionella-pneumophila' target='_blank'><em>Legionella pneumophila</em></a>",quiztag:[], card:"https://www.omu.ac.jp/med/bacteriology/online/image/card/img-card-04.png", feature:"Water", law:["4類"],
       bsl:2,
+      story:["準備中","準備中"],
     },
     {
       id: 5,
@@ -91,6 +95,7 @@ const chara = [
       img: "<img src='img/chara5.png'>",
       lpsn: "<a href='https://lpsn.dsmz.de/species/escherichia-coli' target='_blank'><em>Escherichia coli</em></a>",quiztag:[], card:"https://www.omu.ac.jp/med/bacteriology/online/image/card/img-card-05.png", feature:"Water", law:["なし"],
       bsl:2,
+      story:["準備中","準備中"],
     },{
       id: 6,
       name: "ベロダシ",
@@ -109,6 +114,7 @@ const chara = [
       additionalInfo: ["生食による感染が多く、食品衛生上の重要な病原菌。"],
       img: "<img src='img/chara6.png'>",
       lpsn: "<a href='https://lpsn.dsmz.de/species/escherichia-coli' target='_blank'><em>Escherichia coli</em></a>",quiztag:[], card:"https://www.omu.ac.jp/med/bacteriology/online/image/card/img-card-06.png", feature:"Water", law:["腸管出血性大腸菌感染症（3類）"],bsl:2,
+      story:["準備中","準備中"],
   },
   {
       id: 7,
@@ -128,6 +134,7 @@ const chara = [
       additionalInfo: ["感染経路は主に汚染水や食品、接触感染。"],
       img: "<img src='img/chara7.png'>",
       lpsn: "<a href='https://lpsn.dsmz.de/species/shigella-dysenteriae' target='_blank'><em>Shigella dysenteriae</em></a>",quiztag:[], card:"https://www.omu.ac.jp/med/bacteriology/online/image/card/img-card-07.png", feature:"Water", law:["赤痢（3類）"],bsl:2,
+      story:["準備中","準備中"],
   },
   {
       id: 8,
@@ -147,6 +154,7 @@ const chara = [
       additionalInfo: ["高病原性肺炎桿菌（hvKP）もしくは高粘稠性肺炎桿菌（hmKP）が近年問題となっている。"],
       img: "<img src='img/chara8.png'>",
       lpsn: "<a href='https://lpsn.dsmz.de/species/klebsiella-pneumoniae' target='_blank'><em>Klebsiella pneumoniae</em></a>",quiztag:[], card:"https://www.omu.ac.jp/med/bacteriology/online/image/card/img-card-08.png", feature:"Water", law:["なし"],bsl:2,
+      story:["準備中","準備中"],
   },
   {
       id: 9,
@@ -166,6 +174,7 @@ const chara = [
       additionalInfo: ["汚染された水や食品を介して感染する。"],
       img: "<img src='img/chara9.png'>",
       lpsn: "<a href='https://lpsn.dsmz.de/species/vibrio-cholerae' target='_blank'><em>Vibrio cholerae</em></a>",quiztag:[], card:"https://www.omu.ac.jp/med/bacteriology/online/image/card/img-card-09.png", feature:"Water", law:["コレラ（3類）"],bsl:2,
+      story:["準備中","準備中"],
   },
   {
       id: 10,
@@ -185,6 +194,7 @@ const chara = [
       additionalInfo: ["医療関連感染で重要な病原菌。"],
       img: "<img src='img/chara10.png'>",
       lpsn: "<a href='https://lpsn.dsmz.de/species/pseudomonas-aeruginosa' target='_blank'><em>Pseudomonas aeruginosa</em></a>",quiztag:[], card:"https://www.omu.ac.jp/med/bacteriology/online/image/card/img-card-10.png", feature:"Water", law:["薬剤耐性緑膿菌感染症（5類基幹定点・月単位"],bsl:2,
+      story:["準備中","準備中"],
   },{
     id: 11,
     name: "アシネトバクター",
@@ -203,6 +213,7 @@ const chara = [
     additionalInfo: ["耐性遺伝子の水平伝播が確認されており、治療が困難な場合がある。"],
     img: "<img src='img/chara11.png'>",
     lpsn: "<a href='https://lpsn.dsmz.de/species/acinetobacter-baumannii' target='_blank'><em>Acinetobacter baumannii</em></a>",quiztag:[], card:"https://www.omu.ac.jp/med/bacteriology/online/image/card/img-card-11.png", feature:"Water", law:["薬剤耐性アシネトバクター感染症（5類全数・7日以内"],bsl:2,
+    story:["準備中","準備中"],
 },
 {
     id: 12,
@@ -222,6 +233,7 @@ const chara = [
     additionalInfo: ["経口感染が主な感染経路。予防には清潔な水と食品の管理が重要。"],
     img: "<img src='img/chara12.png'>",
     lpsn: "<a href='https://lpsn.dsmz.de/species/salmonella-enterica' target='_blank'><em>Salmonella enterica</em></a>",quiztag:[], card:"https://www.omu.ac.jp/med/bacteriology/online/image/card/img-card-12.png", feature:"Default", law:["腸チフス（3類）"],bsl:2,
+    story:["準備中","準備中"],
 },
 {
     id: 13,
@@ -241,6 +253,7 @@ const chara = [
     additionalInfo: ["非定型肺炎の原因菌の一つ。PCR検査で診断される。"],
     img: "<img src='img/chara13.png'>",
     lpsn: "<a href='https://lpsn.dsmz.de/species/chlamydia-pneumoniae' target='_blank'><em>Chlamydia pneumoniae</em></a>",quiztag:[], card:"https://www.omu.ac.jp/med/bacteriology/online/image/card/img-card-13.png", feature:"Royal Family", law:["なし"],bsl:2,
+    story:["準備中","準備中"],
 },
 {
     id: 14,
@@ -260,6 +273,7 @@ const chara = [
     additionalInfo: ["鳥類との接触がリスク要因。PCRや血清学的検査で診断。"],
     img: "<img src='img/chara14.png'>",
     lpsn: "<a href='https://lpsn.dsmz.de/species/chlamydia-psittaci' target='_blank'><em>Chlamydia psittaci</em></a>",quiztag:[], card:"https://www.omu.ac.jp/med/bacteriology/online/image/card/img-card-14.png", feature:"Royal Family", law:["オウム病（3類）"],bsl:2,
+    story:["準備中","準備中"],
 },
 {
     id: 15,
@@ -279,6 +293,7 @@ const chara = [
     additionalInfo: ["常在菌だが、侵入すると感染を引き起こす。"],
     img: "<img src='img/chara15.png'>",
     lpsn: "<a href='https://lpsn.dsmz.de/species/staphylococcus-aureus' target='_blank'><em>Staphylococcus aureus</em></a>",quiztag:[], card:"https://www.omu.ac.jp/med/bacteriology/online/image/card/img-card-15.png", feature:"Common", law:["バンコマイシン耐性黄色ブドウ球菌感染症（5類全数・7日以内）","メチシリン耐性黄色ブドウ球菌（5類基幹定点・月単位）"],bsl:2,
+    story:["準備中","準備中"],
 },{
   id: 16,
   name: "ケッカクキン",
@@ -297,6 +312,7 @@ const chara = [
   additionalInfo: ["空気感染により伝播。BCGワクチンで予防可能だが、成人結核には効果が限定的。"],
   img: "<img src='img/chara16.png'>",
   lpsn: "<a href='https://lpsn.dsmz.de/species/mycobacterium-tuberculosis' target='_blank'><em>Mycobacterium tuberculosis</em></a>",quiztag:[], card:"https://www.omu.ac.jp/med/bacteriology/online/image/card/img-card-16.png", feature:"Default", law:["結核（2類）","結核菌（特定4種）","多剤耐性結核菌（特定3種）"],bsl:3,
+  story:["準備中","準備中"],
 },
 {
   id: 17,
@@ -316,6 +332,7 @@ const chara = [
   additionalInfo: ["自然環境中に広く存在し、主に水や土壌を通じて感染。"],
   img: "<img src='img/chara17.png'>",
   lpsn: "<a href='https://lpsn.dsmz.de/species/mycobacterium-avium' target='_blank'><em>Mycobacterium avium</em></a>",quiztag:[], card:"https://www.omu.ac.jp/med/bacteriology/online/image/card/img-card-17.png", feature:"Default", law:["なし"],bsl:2,
+  story:["準備中","準備中"],
 },
 {
   id: 18,
@@ -334,7 +351,9 @@ const chara = [
   clinicalFeatures: ["コクシジオイデス症（バレー熱）を引き起こす。"],
   additionalInfo: ["アメリカ南西部など乾燥地域で多く発生。"],
   img: "<img src='img/chara18.png'>",
-  lpsn: "なし",quiztag:[], card:"https://www.omu.ac.jp/med/bacteriology/online/image/card/img-card-18.png", feature:"Hot", law:["コクシジオイデス症（4類）"],bsl:3,
+  lpsn: "なし",quiztag:[], card:"https://www.omu.ac.jp/med/bacteriology/online/image/card/img-card-18.png", feature:"Hot", law:["コクシジオイデス症（4類）"],
+  bsl:3,
+  story:["準備中","準備中"],
 },
 {
   id: 19,
@@ -353,7 +372,9 @@ const chara = [
   clinicalFeatures: ["ヒストプラズマ症（肺炎や全身感染）を引き起こす。"],
   additionalInfo: ["免疫不全患者では重症化する。"],
   img: "<img src='img/chara19.png'>",
-  lpsn: "なし",quiztag:[], card:"https://www.omu.ac.jp/med/bacteriology/online/image/card/img-card-197.png", feature:"Hot", law:["なし"],bsl:3,
+  lpsn: "なし",quiztag:[], card:"https://www.omu.ac.jp/med/bacteriology/online/image/card/img-card-197.png", feature:"Hot", law:["なし"],
+  bsl:3,
+  story:["準備中","準備中"],
 },
 {
   id: 20,
@@ -373,6 +394,7 @@ const chara = [
   additionalInfo: ["肺から全身に感染が広がることがある。"],
   img: "<img src='img/chara20.png'>",
   lpsn: "なし",quiztag:[], card:"https://www.omu.ac.jp/med/bacteriology/online/image/card/img-card-20.png", feature:"Hot", law:["なし"],bsl:3,
+  story:["準備中","準備中"],
 },
 {
   id: 21,
@@ -392,6 +414,7 @@ const chara = [
   additionalInfo: ["北米で主に発生。免疫低下者で重症化しやすい。"],
   img: "<img src='img/chara21.png'>",
   lpsn: "なし",quiztag:[], card:"https://www.omu.ac.jp/med/bacteriology/online/image/card/img-card-21.png", feature:"Hot", law:["なし"],bsl:3,
+  story:["準備中","準備中"],
 },
 {
   id: 22,
@@ -412,6 +435,7 @@ const chara = [
   img: "<img src='img/chara22.png'>",
   lpsn: "なし",
   card:"https://www.omu.ac.jp/med/bacteriology/online/image/card/img-card-22.png", feature:"Hot", law:["なし"],bsl:3,
+  story:["準備中","準備中"],
 },
 {
   id: 23,
@@ -431,6 +455,7 @@ const chara = [
   additionalInfo: ["免疫不全患者で重症化しやすい。"],
   img: "<img src='img/chara23.png'>",
   lpsn: "なし",quiztag:[], card:"https://www.omu.ac.jp/med/bacteriology/online/image/card/img-card-23.png", feature:"Default", law:["播種性クリプトコックス感染症（5類全数・7日以内）"],bsl:2,
+  story:["準備中","準備中"],
 },
 {
   id: 24,
@@ -450,6 +475,7 @@ const chara = [
   additionalInfo: ["健常者でも感染することがある。"],
   img: "<img src='img/chara24.png'>",
   lpsn: "なし",quiztag:[], card:"https://www.omu.ac.jp/med/bacteriology/online/image/card/img-card-24.png", feature:"Default", law:["播種性クリプトコックス感染症（5類全数・7日以内）"],bsl:2,
+  story:["準備中","準備中"],
 },
 {
   id: 25,
@@ -469,6 +495,7 @@ const chara = [
   additionalInfo: ["抗真菌薬による治療が可能。"],
   img: "<img src='img/chara25.png'>",
   lpsn: "なし",quiztag:[], card:"https://www.omu.ac.jp/med/bacteriology/online/image/card/img-card-25.png", feature:"Default", law:["なし"],bsl:2,
+  story:["準備中","準備中"],
 },{
   id: 26,
   name: "アスペルギルス",
@@ -487,6 +514,7 @@ const chara = [
   additionalInfo: ["免疫不全患者において致命的になる場合がある。"],
   img: "<img src='img/chara26.png'>",
   lpsn: "なし",quiztag:[], card:"https://www.omu.ac.jp/med/bacteriology/online/image/card/img-card-26.png", feature:"Default", law:["なし"],bsl:2,
+  story:["準備中","準備中"],
 },
 {
   id: 27,
@@ -506,6 +534,7 @@ const chara = [
   additionalInfo: ["パンやアルコールの発酵に利用される重要な微生物。","分子生物学的な研究に利用される。"],
   img: "<img src='img/chara27.png'>",
   lpsn: "なし",quiztag:[], card:"https://www.omu.ac.jp/med/bacteriology/online/image/card/img-card-27.png", feature:"Default", law:["なし"],bsl:1,
+  story:["準備中","準備中"],
 },
 {
   id: 28,
@@ -525,6 +554,7 @@ const chara = [
   additionalInfo: ["日本の伝統的な食品（味噌、醤油、清酒）の製造に欠かせない。"],
   img: "<img src='img/chara28.png'>",
   lpsn: "なし",quiztag:[], card:"https://www.omu.ac.jp/med/bacteriology/online/image/card/img-card-28.png", feature:"Default", law:["なし"],bsl:1,
+  story:["準備中","準備中"],
 },
 {
   id: 29,
@@ -544,6 +574,7 @@ const chara = [
   additionalInfo: ["ペニシリン系抗菌薬が有効。"],
   img: "<img src='img/chara29.png'>",
   lpsn: "<a href='https://lpsn.dsmz.de/species/streptococcus-pyogenes' target='_blank'>LPSN</a>",quiztag:[], card:"https://www.omu.ac.jp/med/bacteriology/online/image/card/img-card-29.png", feature:"Default", law:["劇症型溶血性レンサ球菌感染症（5類全数・7日以内）","A群溶血性レンサ球菌咽頭炎（5類小児科定点・週単位）"],bsl:2,
+  story:["準備中","準備中"],
 },
 {
   id: 30,
@@ -563,6 +594,7 @@ const chara = [
   additionalInfo: ["新生児には通常経産道的に感染する。妊婦スクリーニングで膣に常在していることがわかれば、ペニシリン系薬による治療を行うことで、新生児髄膜炎を予防できる。"],
   img: "<img src='img/chara30.png'>",
   lpsn: "<a href='https://lpsn.dsmz.de/species/streptococcus-agalactiae' target='_blank'>LPSN</a>",quiztag:[], card:"https://www.omu.ac.jp/med/bacteriology/online/image/card/img-card-30.png", feature:"Default", law:["劇症型溶血性レンサ球菌感染症（5類全数・7日以内）"],bsl:2,
+  story:["準備中","準備中"],
 },
 {
   id: 31,
@@ -582,6 +614,7 @@ const chara = [
   additionalInfo: ["糞便移植療法が有効な場合がある。"],
   img: "<img src='img/chara31.png'>",
   lpsn: "<a href='https://lpsn.dsmz.de/species/clostridioides-difficile' target='_blank'><em>Clostridioides difficile</em></a>",quiztag:["グラム陽性菌","グラム陽性桿菌","GPR","芽胞形成菌","嫌気性菌","抗菌薬関連下痢症","偽膜性大腸炎","ブリストルスケール","水様便","水様性下痢"], card:"https://www.omu.ac.jp/med/bacteriology/online/image/card/img-card-31.png", feature:"Default", law:["なし"],bsl:2,
+  story:["準備中","準備中"],
 },
 {
   id: 32,
@@ -601,6 +634,7 @@ const chara = [
   additionalInfo: ["バイオテロリズムのリスクがある病原体。"],
   img: "<img src='img/chara32.png'>",
   lpsn: "<a href='https://lpsn.dsmz.de/species/bacillus-anthracis' target='_blank'><em>Bacillus anthracis</em></a>",quiztag:["グラム陽性菌","グラム陽性桿菌","GPR","芽胞形成菌"], card:"https://www.omu.ac.jp/med/bacteriology/online/image/card/img-card-32.png", feature:"Default", law:["炭疽（2類）","炭疽菌（特定2種）"],bsl:3,
+  story:["準備中","準備中"],
 },
   ];
   

@@ -63,9 +63,10 @@ document.addEventListener("DOMContentLoaded", () => {
           <td>
             <div>
             <div>${c.img}</div>
+              <p id="charastory">${c.story[0]}</p>  
               <p><strong>キャラ名:</strong> ${c.name}</p>
               <p><strong>和名:</strong> ${c.scientificNameJa}</p>
-              <p><strong>学名:</strong> ${c.scientificNameEn}</p>            
+              <p><strong>学名:</strong> ${c.scientificNameEn}</p>          
             </div>
           </td>
 
@@ -124,6 +125,7 @@ document.addEventListener("DOMContentLoaded", () => {
                 <p><strong>細菌学的特徴:</strong> <span>${c.bacterialFeatures[0]}</span>${c.bacterialFeatures.length > 1 ? ` <br><button class="toggle-details" data-type="bacterialFeatures">もっと詳しく</button>` : ""}</p>
                 <p><strong>臨床的特徴:</strong> <span>${c.clinicalFeatures[0]}</span>${c.clinicalFeatures.length > 1 ? ` <br><button class="toggle-details" data-type="clinicalFeatures">もっと詳しく</button>` : ""}</p>
                 <p><strong>その他:</strong> <span>${c.additionalInfo[0]}</span>${c.additionalInfo.length > 1 ? ` <br><button class="toggle-details" data-type="additionalInfo">もっと詳しく</button>` : ""}</p>
+                <p><strong>キャラ設定:</strong> <span>${c.story[0]}</span>${c.story.length > 1 ? ` <br><button class="toggle-details" data-type="story">もっと詳しく</button>` : ""}</p>
               </div>
             </div>
           </div>
