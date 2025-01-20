@@ -462,3 +462,34 @@ select#view-select {
     border: 8px solid transparent; /* Smaller triangle */
     border-top-color: #f9f9f9; /* Match the background color */
 }
+.bacteria-style {
+  position: relative;
+  text-align: center;
+  margin: 20px 0;
+  overflow: hidden; /* 拡大時に画像がはみ出ないように設定 */
+}
+
+.bacteria-style h1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+  font-family: 'Arial', sans-serif;
+  font-size: 2em;
+  font-weight: bold;
+  z-index: 2;
+  margin: 0;
+  padding: 0;
+}
+
+.bacteria-style img {
+  width: 50%; /* 通常は小さいサイズで表示 */
+  transition: transform 0.3s ease, width 0.3s ease; /* アニメーションで拡大をスムーズに */
+}
+
+.bacteria-style:hover img {
+  transform: scale(2); /* ホバー時に200%に拡大 */
+}
+
