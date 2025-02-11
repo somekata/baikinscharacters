@@ -72,7 +72,7 @@ const chara = [
       clinicalFeatures: ["レジオネラ肺炎（在郷軍人病）の原因菌。","検体中の菌はグラム染色で染まらないため、<ruby>Gimenez<rt>ヒネメス</rt></ruby>染色を用いる。ただし、いったん培養するとグラム陰性に染まる。"],
       additionalInfo: ["エアロゾル感染による集団発生が知られる。","重症化しやすい。ステロイド内服など、細胞性免疫が低下した宿主では注意が必要。","比較的徐脈や低Na血症等も起こりやすい。"],
       img: "<img src='img/chara4.png'>",
-      lpsn: "<a href='https://lpsn.dsmz.de/species/legionella-pneumophila' target='_blank'><em>Legionella pneumophila</em></a>",quiztag:["市中肺炎","重症肺炎","非定型菌","特殊培地","BCYE-α培地","WYO培地","細胞内増殖","細胞内寄生","特殊染色","ヒメネス染色"], card:"https://www.omu.ac.jp/med/bacteriology/online/image/card/img-card-04.png", feature:"Water", law:["4類"],
+      lpsn: "<a href='https://lpsn.dsmz.de/species/legionella-pneumophila' target='_blank'><em>Legionella pneumophila</em></a>",quiztag:["市中肺炎","重症肺炎","非定型菌","特殊培地","BCYE-α培地","WYO培地","細胞内増殖","細胞内寄生","特殊染色","ヒメネス染色"], card:"https://www.omu.ac.jp/med/bacteriology/online/image/card/img-card-04.png", feature:"Water", law:["レジオネラ症（4類）"],
       bsl:2,
       story:["元軍人","温泉好き","アメー婆さん、マクロファー爺さんと仲良し。","「姫寝る時間ですぞ」が口癖。","4類指名手配中。"],
     },
@@ -193,7 +193,7 @@ const chara = [
       clinicalFeatures: ["易感染性宿主における肺炎や菌血症の原因菌。"],
       additionalInfo: ["医療関連感染で重要な病原菌。"],
       img: "<img src='img/chara10.png'>",
-      lpsn: "<a href='https://lpsn.dsmz.de/species/pseudomonas-aeruginosa' target='_blank'><em>Pseudomonas aeruginosa</em></a>",quiztag:[], card:"https://www.omu.ac.jp/med/bacteriology/online/image/card/img-card-10.png", feature:"Water", law:["薬剤耐性緑膿菌感染症（5類基幹定点・月単位"],bsl:2,
+      lpsn: "<a href='https://lpsn.dsmz.de/species/pseudomonas-aeruginosa' target='_blank'><em>Pseudomonas aeruginosa</em></a>",quiztag:[], card:"https://www.omu.ac.jp/med/bacteriology/online/image/card/img-card-10.png", feature:"Water", law:["薬剤耐性緑膿菌感染症（5類基幹定点・月単位）"],bsl:2,
       story:["起こしてはいけないグリーンモンスター。","もともと抗菌薬が効きにくいが、バイオフィルムでさらに強敵に。"],
   },{
     id: 11,
@@ -212,7 +212,7 @@ const chara = [
     clinicalFeatures: ["医療関連感染（肺炎、尿路感染症、創感染など）の原因菌。"],
     additionalInfo: ["耐性遺伝子の水平伝播が確認されており、治療が困難な場合がある。"],
     img: "<img src='img/chara11.png'>",
-    lpsn: "<a href='https://lpsn.dsmz.de/species/acinetobacter-baumannii' target='_blank'><em>Acinetobacter baumannii</em></a>",quiztag:[], card:"https://www.omu.ac.jp/med/bacteriology/online/image/card/img-card-11.png", feature:"Water", law:["薬剤耐性アシネトバクター感染症（5類全数・7日以内"],bsl:2,
+    lpsn: "<a href='https://lpsn.dsmz.de/species/acinetobacter-baumannii' target='_blank'><em>Acinetobacter baumannii</em></a>",quiztag:[], card:"https://www.omu.ac.jp/med/bacteriology/online/image/card/img-card-11.png", feature:"Water", law:["薬剤耐性アシネトバクター感染症（5類全数・7日以内）"],bsl:2,
     story:["リョクノーキンと並ぶモンスター。","水陸両用。でも泳げない。"],
 },
 {

@@ -81,7 +81,7 @@ document.addEventListener("DOMContentLoaded", () => {
             <p><strong>細菌学的特徴:</strong> ${c.bacterialFeatures[0]}</p>
             <p><strong>臨床的特徴:</strong> ${c.clinicalFeatures[0]}</p>
             <p><strong>感染症法:</strong> ${c.law}</p>
-            <p><strong>BSL:</strong> <span class="stars">${yellowStars}${grayStars}</span></p>
+            <p><strong>BSL:</strong> <span class="stars">${yellowStars}</span><span class="gray-star">${grayStars}</span></p>
             <p><strong>その他:</strong> ${c.additionalInfo[0]}</p>
             <p><strong>LPSN:</strong> ${c.lpsn}</p>
           </td>
@@ -124,6 +124,8 @@ document.addEventListener("DOMContentLoaded", () => {
                 </table>
                 <p><strong>細菌学的特徴:</strong> <span>${c.bacterialFeatures[0]}</span>${c.bacterialFeatures.length > 1 ? ` <br><button class="toggle-details" data-type="bacterialFeatures">もっと詳しく</button>` : ""}</p>
                 <p><strong>臨床的特徴:</strong> <span>${c.clinicalFeatures[0]}</span>${c.clinicalFeatures.length > 1 ? ` <br><button class="toggle-details" data-type="clinicalFeatures">もっと詳しく</button>` : ""}</p>
+                <p><strong>感染症法:</strong> <span>${c.law}</span></p>
+                <p><strong>BSL:</strong> <span class="stars">${yellowStars}</span><span class="gray-star">${grayStars}</span></p>
                 <p><strong>その他:</strong> <span>${c.additionalInfo[0]}</span>${c.additionalInfo.length > 1 ? ` <br><button class="toggle-details" data-type="additionalInfo">もっと詳しく</button>` : ""}</p>
                 <p><strong>キャラ設定:</strong> <span>${c.story[0]}</span>${c.story.length > 1 ? ` <br><button class="toggle-details" data-type="story">もっと詳しく</button>` : ""}</p>
               </div>

@@ -235,8 +235,8 @@ table td ul {
     color: #ffc107; /* 黄色い星の色 */
 }
 
-.stars .gray-star {
-    color: #ccc; /* 灰色の星の色 */
+.gray-star {
+    color: #ffc10733; /* 灰色の星の色 */
 }
 
 select#view-select {
